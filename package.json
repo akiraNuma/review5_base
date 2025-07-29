@@ -1,0 +1,15 @@
+{
+  "name": "review-book-project",
+  "version": "1.0.0",
+  "description": "Re:VIEW技術書執筆環境にtextlintを導入",
+  "scripts": {
+    "textlint": "textlint 'articles/**/*.re'",
+    "textlint:fix": "textlint --fix 'articles/**/*.re'",
+    "textlint:check": "textlint --dry-run 'articles/**/*.re'"
+  },
+  "devDependencies": {
+    "@textlint/textlint-plugin-text": "^15.2.1",
+    "textlint": "^15.2.1",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+  }
+}

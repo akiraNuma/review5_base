@@ -1,0 +1,17 @@
+{
+  "name": "Re:VIEW",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "review",
+  "workspaceFolder": "/work",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "takumisoft68.vscode-language-review",
+        "ms-ceintl.vscode-language-pack-ja",
+        "yuqquu.review-starter-syntax-highlight",
+        "saoudrizwan.claude-dev"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}

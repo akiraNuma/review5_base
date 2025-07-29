@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "@textlint/text": {
+      "extensions": [".re", ".txt"]
+    }
+  },
+  "rules": {
+    "preset-ja-technical-writing": true
+  }
+}
